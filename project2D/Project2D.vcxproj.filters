@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="poly2tri">
+      <UniqueIdentifier>{3d19dcf2-f236-4fde-88ae-27c5dfd75ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="poly2tri\common">
+      <UniqueIdentifier>{f42b2e7a-29d8-46d2-bdf9-30136a6a2dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="poly2tri\sweep">
+      <UniqueIdentifier>{17534733-2140-4bec-a540-f732243cea9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NavMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NavMeshApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\sweep\advancing_front.cc">
+      <Filter>poly2tri\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\sweep\cdt.cc">
+      <Filter>poly2tri\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\sweep\sweep.cc">
+      <Filter>poly2tri\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\sweep\sweep_context.cc">
+      <Filter>poly2tri\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\common\shapes.cc">
+      <Filter>poly2tri\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NavMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NavMeshApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\poly2tri.h">
+      <Filter>poly2tri</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\sweep\advancing_front.h">
+      <Filter>poly2tri\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\sweep\cdt.h">
+      <Filter>poly2tri\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\sweep\sweep.h">
+      <Filter>poly2tri\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\sweep\sweep_context.h">
+      <Filter>poly2tri\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\common\shapes.h">
+      <Filter>poly2tri\common</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\common\utils.h">
+      <Filter>poly2tri\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
