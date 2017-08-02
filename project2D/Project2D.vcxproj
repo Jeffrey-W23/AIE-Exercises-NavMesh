@@ -91,6 +91,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application2D.cpp" />
+    <ClCompile Include="AStar.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NavMesh.cpp" />
     <ClCompile Include="NavMeshApp.cpp" />
@@ -102,6 +103,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application2D.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="AStarNode.h" />
+    <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="Heap.h" />
+    <ClInclude Include="Heuristics.h" />
     <ClInclude Include="NavMesh.h" />
     <ClInclude Include="NavMeshApp.h" />
     <ClInclude Include="poly2tri\common\shapes.h" />
